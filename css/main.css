@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    color: #000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+
+input, select {
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-image {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 1480px;
+    margin: 0 80px;
+}
+
+.main {
+    margin-top: 140px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 24px;
+    color: #000;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 5px 0;
+    color: #000;
+}
+
+.main-list {
+    color: #999;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-list li {
+    padding-bottom: 5px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.cards {
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    width: 600px;
+    margin: 0 40px 40px 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.card-top {
+    text-decoration: none;
+}
+
+.card-holder {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.card-header {
+    padding: 10px 40px 20px 40px;
+    text-align: center;
+}
+
+.card-designer {
+    padding: 20px 40px;
+
+}
+
+.card-designer-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card-designer-image {
+    margin-right: 10px;
+}
+
+.card-designer-image img {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+.text-secondary {
+    color: #999;
+}
+
+.card-materials {
+    padding: 20px 40px;
+    background-color: #f8f8f8;
+}
+
+.card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-list li {
+    padding: 5px 0 0 0;
+    color: #999;
+}
+
+.card-action {
+    display: flex;
+    justify-content: center;
+}
+
+.card-button {
+    border: none;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    width: 160px;
+}
+
+.card-button-green {
+    background-color: #44d89e;
+}
+
+.text-green {
+    color: #44d89e;
+}
+
+.product-list {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 0 20px 40px 0;
+    align-items: center;
+    width: 280px;
+}
+
+.product-info {
+    text-align: center;
+}
+
+.cart {
+    margin-left: 60px;
+}
+
+.label-std {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.select-std {
+    display: block;
+    border: 2px solid #ccc;
+    height: 48px;
+    width: 188px;
+    box-sizing: border-box;
+}
+
+.form-field {
+    margin-bottom: 40px;
+}
+
+.radio-group {
+    margin-bottom: 40px;
+}
+
+.label-radio {
+	box-sizing: border-box;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 188px;
+    height: 48px;
+    border-radius: 4px;
+	cursor: pointer;
+    box-sizing: border-box;
+}
+
+.shady {
+    background-color: #d8dee4;
+}
+
+.partly {
+    background-color: #e4e4d8;
+}
+
+.sunny {
+    background-color: #f1f175;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+input[type="radio"]:checked + label {
+    border: 4px solid #44d89e;
+}
+
+.side-panel {
+    width: 240px;
+}
+
+.main-panel {
+    margin-left: 80px;
+}
+
+.blueprint {
+    background: #f8f8f8;
+    width: 600px;
+    height: 400px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.start-options {
+    display: flex;
+}
+
+.select-type {
+    margin-left: 20px;
+}
+
+.list-std {
+    margin: 0 0 40px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.fake-check {
+    height: 20px;
+    width: 20px;
+    border: 4px solid #44d89e;
+}
+
+input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+input[type="checkbox"]:checked + label .fake-check {
+    background: #44d89e;
+}
